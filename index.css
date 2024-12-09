@@ -1,0 +1,746 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+nav{
+    padding: 1em 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: gold;
+}
+nav > ul{
+      display: flex;
+      list-style: none;
+      column-gap: 1em;
+      align-items: center;
+      /* background-color: greenyellow; */
+}
+nav ul li a{
+   color: rgba(0, 0, 0, 0.788);
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-weight: bold;
+   font-size: 15px;
+   text-decoration: none;
+   cursor: pointer;
+   transition-property: all;
+   transition-timing-function: linear;
+   transition: all ease-in .2s;
+   align-items: center;
+} 
+nav ul li a:hover{
+    text-decoration: underline;
+} 
+
+
+nav  header >a{
+    color: black;
+    /* margin-right: 38em;  */
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    transition-property: all;
+   transition-timing-function: linear;
+   transition: all ease-in .2s;
+} 
+nav header > a:hover{
+text-decoration: underline;
+}
+
+
+.Home{
+    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 120px;
+    font-size: 30px;
+    font-weight: 100;
+    font-family: monospace;
+    opacity: 0.8;
+}
+.img{
+    width: 50%;
+    margin-left: 20em;
+}
+.text{
+align-items:normal ;
+    text-align: justify;
+}
+.text > h1{
+line-height: 2;
+    padding-right: 13em;
+    opacity: 0.6;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text > h2{
+    margin-top:10px ;
+   text-align: justify;
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif; 
+    padding-left: 16.5em;
+    margin-bottom: 20px;
+}
+.text > h3 {
+    margin-left: 10em;
+  margin-top:10px ;
+    text-align: justify;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif; 
+    opacity: 0.;
+    padding-left: 10em;
+    color: rgba(0, 0, 0, 0.596);
+}  
+.text >p{
+     padding-left: 20em;
+  margin-top:10px ;
+    text-align: justify;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif; 
+    opacity: 0.4;
+}
+.text > h6{
+      padding-left: 20em;
+  margin-top:10px ;
+    text-align: justify;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif; 
+    opacity: 0.4;
+    margin-bottom: 2em;
+}
+.new{
+    text-align: justify;
+    justify-content: center;
+}
+.new >h2{
+ margin-top:10px ;
+   text-align: justify;
+    font-size: 1.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    margin-bottom: 20px;
+    margin-left: 16.5em;
+}
+.new >p{
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5em;
+    margin-left: 16.5em;
+    margin-bottom: 2.5em;
+
+}
+.img-1 > a{
+    align-items: center;
+margin-left: 16.5em;
+color: black;
+font-size: 1.5em;
+    cursor: pointer;
+    transition-property: all;
+   transition-timing-function: linear;
+   transition: all ease-in .2s;
+   margin-bottom: 1em;
+}
+.img-1 > a:hover{
+    text-decoration: none;
+}
+.img-2 {
+    margin-top: 20px;
+    width: 50%;
+    margin-left: 22em;
+    margin-bottom: 20px;
+}
+.img-3 >a{
+     align-items: center;
+margin-left: 8em;
+color: black;
+font-size: 1.5em;
+padding-top: 10em;
+text-decoration: underline;
+    cursor: pointer;
+    transition-property: all;
+   transition-timing-function: linear;
+   transition: all ease-in .2s;
+}
+.img-3 >a:hover{
+    text-decoration: none;
+}
+.img-4>a{
+     align-items: center;
+margin-left: 16em;
+color: black;
+font-size: 1.5em;
+text-decoration: underline;
+    cursor: pointer;
+    transition-property: all;
+   transition-timing-function: linear;
+   transition: all ease-in .2s;
+   padding-top: 6em;
+}
+.img-4>a:hover{
+    text-decoration: none;
+}
+.Word > img{
+    margin-left: 22em;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.Word-1>a:nth-child(1){
+           align-items: center;
+margin-left: 17em;
+color: black;
+font-size: 1.5em;
+padding-top: 10em;
+text-decoration: underline;
+    cursor: pointer;
+    transition-property: all;
+   transition-timing-function: linear;
+   transition: all ease-in .2s;
+}  
+.Word-1>a:nth-child(1):hover{
+    text-decoration: none;
+} 
+.Word-2 >a{
+          align-items: center;
+margin-left: 17em;
+font-size: 1.5em;
+color: black;
+padding-top: 10em;
+text-decoration: underline;
+    cursor: pointer;
+    transition-property: all;
+   transition-timing-function: linear;
+   transition: all ease-in .2s;
+}
+.Word-2 >a:hover{
+    text-decoration: none;
+}
+.Word-3> img{
+    margin-left: 22em;
+    margin-bottom: 20px;
+margin-top: 20px;
+}
+.word-4> a{
+align-items: center;
+margin-left: 17em;
+font-size: 1.5em;
+color: black;
+padding-top: 10em;
+text-decoration: underline;
+    cursor: pointer;
+    transition-property: all;
+   transition-timing-function: linear;
+   transition: all ease-in .2s;
+} 
+.word-4> a:hover{
+    text-decoration: none;
+}
+.word-5>a{
+    align-items: center;
+margin-left: 17em;
+font-size: 1.5em;
+color: black;
+padding-top: 10em;
+text-decoration: underline;
+    cursor: pointer;
+    transition-property: all;
+   transition-timing-function: linear;
+   transition: all ease-in .2s;
+}
+.word-5>a:hover{
+    text-decoration: none;
+}
+.word-6>img{
+    margin-left: 22em;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.word-7>a{
+   align-items: center;
+margin-left: 17em;
+font-size: 1.5em;
+color: black;
+padding-top: 10em;
+text-decoration: underline;
+    cursor: pointer;
+    transition-property: all;
+   transition-timing-function: linear;
+   transition: all ease-in .2s;
+}
+.word-7>a:hover{
+    text-decoration: none;
+}
+.word-8>a{
+     align-items: center;
+margin-left: 17em;
+font-size: 1.5em;
+color: black;
+padding-top: 10em;
+text-decoration: underline;
+    cursor: pointer;
+    transition-property: all;
+   transition-timing-function: linear;
+   transition: all ease-in .2s;
+}
+.word-8>a:hover{
+    text-decoration: none;
+}
+.word-9{
+    margin-left: 22em;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.word-10>a{
+    align-items: center;
+margin-left: 17em;
+font-size: 1.5em;
+color: black;
+padding-top: 10em;
+text-decoration: underline;
+    cursor: pointer;
+    transition-property: all;
+   transition-timing-function: linear;
+   transition: all ease-in .2s;
+}
+.word-10>a:hover{
+    text-decoration: none;
+}
+.word-11>a{
+    align-items: center;
+margin-left: 17em;
+font-size: 1.5em;
+color: black;
+padding-top: 10em;
+text-decoration: underline;
+    cursor: pointer;
+    transition-property: all;
+   transition-timing-function: linear;
+   transition: all ease-in .2s;
+   font-weight: 200;
+
+}
+.word-11>a:hover{
+    text-decoration: none;
+}
+.bestproduct{
+    text-align: center;
+    text-align: justify;
+}
+.best_1>h2{
+    margin-top: 30px;
+margin-left: 12em;
+font-size: 2em;
+color: black;
+font-weight: 200;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.best_1>p{
+    margin-top: 20px;
+    margin-left: 12em;
+font-size: 2em;
+color: black;
+font-weight: 200;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+margin-bottom: 30px;
+}
+.best_1>a{
+    margin-top: 250px;
+  align-items: center;
+margin-left: 16em;
+font-size: 1.5em;
+color: black;
+    cursor: pointer;
+    transition-property: all;
+   transition-timing-function: linear;
+   transition: all ease-in .2s;
+   font-weight: 200;    
+}
+.best_1>a:hover{
+    text-decoration: none;
+}
+.best_2 >img{
+   margin-left: 22em;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    list-style: circle;
+}
+.best_3>a{
+    margin-top: 250px;
+  align-items: center;
+margin-left: 8em;
+font-size: 1.5em;
+color: black;
+    cursor: pointer;
+    transition-property: all;
+   transition-timing-function: linear;
+   transition: all ease-in .2s;
+   font-weight: 200;
+}
+.best_3>a:hover{
+    text-decoration: none;
+}
+.best_4>a{
+      margin-top: 250px;
+  align-items: center;
+margin-left: 16em;
+font-size: 1.5em;
+color: black;
+    cursor: pointer;
+    transition-property: all;
+   transition-timing-function: linear;
+   transition: all ease-in .2s;
+   font-weight: 200;
+}
+.best_4>a:hover{
+    text-decoration: none;
+}
+.best_5>img{
+     margin-left: 22em;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    list-style: circle;
+}  
+.best_6>a{
+      margin-top: 250px;
+  align-items: center;
+margin-left: 16em;
+font-size: 1.5em;
+color: black;
+    cursor: pointer;
+    transition-property: all;
+   transition-timing-function: linear;
+   transition: all ease-in .2s;
+   font-weight: 200;
+}
+.best_6>a:hover{
+    text-decoration: none;
+}
+.best_7>a{
+margin-top: 250px;
+  align-items: center;
+margin-left: 16em;
+font-size: 1.5em;
+color: black;
+    cursor: pointer;
+    transition-property: all;
+   transition-timing-function: linear;
+   transition: all ease-in .2s;
+   font-weight: 200;
+}
+.best_7>a:hover{
+    text-decoration: none;
+}
+.best_8>img{
+      margin-left: 22em;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    list-style: circle;
+}
+.best_9>a{
+margin-top: 250px;
+  align-items: center;
+margin-left: 16em;
+font-size: 1.5em;
+color: black;
+    cursor: pointer;
+    transition-property: all;
+   transition-timing-function: linear;
+   transition: all ease-in .2s;
+   font-weight: 200;
+}
+.best_9>a:hover{
+    text-decoration: none;
+}
+.best_10>a{
+    margin-top: 250px;
+  align-items: center;
+margin-left: 16em;
+font-size: 1.5em;
+color: black;
+    cursor: pointer;
+    transition-property: all;
+   transition-timing-function: linear;
+   transition: all ease-in .2s;
+   font-weight: 200;
+}
+.best_11>img{
+     margin-left: 22em;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.best_12>a{
+  margin-top: 250px;
+  align-items: center;
+margin-left: 16em;
+font-size: 1.5em;
+color: black;
+    cursor: pointer;
+    transition-property: all;
+   transition-timing-function: linear;
+   transition: all ease-in .2s;
+   font-weight: 200;
+}
+.best_12>a:hover{
+    text-decoration: none;
+}
+.best_13>a{
+    margin-top: 250px;
+  align-items: center;
+margin-left: 16em;
+font-size: 1.5em;
+color: black;
+    cursor: pointer;
+    transition-property: all;
+   transition-timing-function: linear;
+   transition: all ease-in .2s;
+   font-weight: 200;
+}
+.best_13>a:hover{
+    text-decoration: none;
+}
+.best_14>img{
+    margin-left: 22em;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.best_15>a{
+      margin-top: 250px;
+  align-items: center;
+margin-left: 16em;
+font-size: 1.5em;
+color: black;
+    cursor: pointer;
+    transition-property: all;
+   transition-timing-function: linear;
+   transition: all ease-in .2s;
+   font-weight: 200;
+}
+.best_15>a:hover{
+    text-decoration: none;
+}
+.best_16>a{
+  align-items: center;
+margin-left: 16em;
+font-size: 1.5em;
+color: black;
+    cursor: pointer;
+    transition-property: all;
+   transition-timing-function: linear;
+   transition: all ease-in .2s;
+   font-weight: 200;
+}
+.best_16>a:hover{
+    text-decoration: none;
+}
+.services>h1{
+margin-top: 20px; 
+text-align: justify;   
+    padding-right: 17em;
+    opacity: 0.4;
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.services>h2{
+      margin-top:10px ;
+   text-align: justify;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif; 
+    padding-left: 21.5em;
+    margin-bottom: 20px;
+}
+.services>p{
+      padding-left: 17em;
+  margin-top:10px ;
+    text-align: justify;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif; 
+    opacity: 0.4;
+    margin-bottom: 1em;
+}
+.services>h3{
+      margin-top:1px ;
+   text-align: justify;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif; 
+    padding-left: 21.5em;
+    margin-bottom: 20px;
+}
+.Discover>a{
+  margin-top: 5em;
+  margin-bottom: 2em;
+  align-items: center;
+margin-left: 14.2em;
+font-size: 1.5em;
+color: black;
+    cursor: pointer;
+    transition-property: all;
+   transition-timing-function: linear;
+   transition: all ease-in .2s;
+   font-weight: 200;
+}
+.Discover>a:hover{
+    text-decoration: none;
+}
+.Discover>h2{
+ margin-top:20px ;
+   text-align: justify;
+    font-size: 1.3em;
+    font-family: Arial, Helvetica, sans-serif; 
+    padding-left: 16.5em;
+    margin-bottom: 20px;   
+}
+.Discover>p{
+        padding-left: 17em;
+  margin-top:10px ;
+    text-align: justify;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif; 
+    opacity: 0.4;
+    margin-bottom: 1em;
+}
+.gifts>h1{
+    margin-top:20px ;
+   text-align: justify;
+    font-size: 1.3em;
+    font-family: Arial, Helvetica, sans-serif; 
+    padding-left: 16.5em;
+    margin-bottom: 20px;  
+}
+.gifts>p{
+        padding-left: 16.5em;
+  margin-top:10px ;
+    text-align: justify;
+    font-size: 1.3em;
+    font-family: Arial, Helvetica, sans-serif; 
+    opacity: 0.4;
+    margin-bottom: 1em;
+}
+.e-commerce>h1{
+     margin-top:20px ;
+   text-align: justify;
+    font-size: 1.3em;
+    font-family: Arial, Helvetica, sans-serif; 
+    padding-left: 16.5em;
+    margin-bottom: 20px; 
+}
+.e-commerce>p{
+        padding-left: 16.5em;
+  margin-top:10px ;
+    text-align: justify;
+    font-size: 1.3em;
+    font-family: Arial, Helvetica, sans-serif; 
+    opacity: 0.4;
+    margin-bottom: 1em;
+}
+.customer-Support>h1{
+     margin-top:20px;
+   text-align: justify;
+    font-size: 1.3em;
+    font-family: Arial, Helvetica, sans-serif; 
+    padding-left: 16.5em;
+    margin-bottom: 20px; 
+}
+.customer-Support>p{
+     padding-left: 16.5em;
+  margin-top:10px ;
+    text-align: justify;
+    font-size: 1.3em;
+    font-family: Arial, Helvetica, sans-serif; 
+    opacity: 0.4;
+    margin-bottom: 1em;
+}
+footer{
+    padding: 4em;
+    background-color: goldenrod;
+}
+footer header >a{
+    margin-left: 50px;
+font-size: 3em;
+color: black;
+    cursor: pointer;
+    transition-property: all;
+   transition-timing-function: linear;
+   transition: all ease-in .2s;
+   font-weight: 200;
+   text-decoration: none;
+}
+footer header >a:hover{
+    text-decoration: underline;
+}
+footer header >h3{
+   margin-left: 50px;
+   margin-top: 10px;
+   margin-bottom: 20px;
+text-transform: capitalize; 
+}
+footer.inner-footer{
+    justify-content: flex-start;
+     margin: 4em 0em;
+  gap: 12em;
+}
+footer.inner-footer>a{
+     display: flex;
+  color: white;
+  margin-bottom: 10px;
+    
+}
+.one>a{
+    display: block;
+    color: wheat;
+    font-size: 20px;
+    cursor: pointer;
+    transition-property: all;
+   transition-timing-function: linear;
+   transition: all ease-in .2s;
+   font-weight: 200;
+   text-decoration: none;
+   margin-bottom: 10px;
+   
+}
+.one>a:hover{
+    text-decoration: underline;
+}
+.two>a{
+    display: block;
+    font-size: 20px;
+      cursor: pointer;
+    transition-property: all;
+   transition-timing-function: linear;
+   transition: all ease-in .2s;
+   font-weight: 200;
+   text-decoration: none;
+   color: wheat;
+   /* margin-top: 20px; */
+}
+.two>a:hover{
+    text-decoration: underline;
+}
+.threeP{
+    
+}
+.three>h1{
+    margin-top: 200px;
+    font-size: 20px;
+    margin-right: 30px;
+    color: white;
+}
+.three>H2{
+    color: azure;
+     margin-left: 80%;
+}
+
+@media(max-width:1255px){
+    nav ul{
+        display: none !important;
+    }
+}
+
+
+
+
+
+
+
